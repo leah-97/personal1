@@ -2135,25 +2135,47 @@ ul {
     object-fit: contain;
   }
   .right2 {
-    width: 90%;
+    width: 70%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1vw;
+    font-size: 0.8vw;
   }
   .right2 .top {
+    width: 100%;
+    height: calc(100% / 2);
     display: flex;
+    align-items: center;
     gap: 5px;
+  }
+  .right2 .top li {
+    width: calc(100% / 6);
+    height: auto;
+  }
+  .right2 .top li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
   }
   .right2 ul:last-child {
+    width: 100%;
+    height: calc(100% / 2);
     display: flex;
+    align-items: center;
     gap: 5px;
   }
+  .right2 ul:last-child li {
+    width: calc(100% / 3);
+    height: auto;
+    text-align: center;
+  }
   .right2 li span {
+    display: block;
+    width: 100%;
+    height: 100%;
     color: rgb(224, 110, 17);
   }
-  /* * {
-    outline: 1px solid red;
-  } */
 }
