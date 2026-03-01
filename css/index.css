@@ -1722,9 +1722,13 @@ ul {
       center / cover;
   }
   .con2 .con2Wrap {
-    height: 90%;
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .con2Wrap h2 {
@@ -1735,15 +1739,16 @@ ul {
 
   .con2Wrap ul {
     width: 100%;
-    height: 90%;
+    height: 70%;
     margin: 1% 0%;
     display: grid;
     grid-template-columns: 1fr 1fr 0.7fr;
+    align-items: center;
   }
   .con2Ul li {
     padding: 2%;
     box-sizing: border-box;
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1764,12 +1769,12 @@ ul {
     object-fit: cover;
   }
   .first .firstWord {
-    height: 35%;
+    height: 30%;
   }
   .first h3,
   .third h3 {
-    font-size: 2vw;
-    margin: 2% 0%;
+    font-size: 1.2vw;
+    margin: 3px 0px;
     word-break: keep-all;
   }
   .first p {
@@ -1780,8 +1785,8 @@ ul {
   .first .bot,
   .third .bot {
     color: #444;
-    font-size: 1vw;
-    margin-top: 5px;
+    font-size: 0.9vw;
+    margin-top: 3px;
     word-break: keep-all;
   }
   .con2Ul .second {
@@ -1804,8 +1809,8 @@ ul {
     align-items: flex-start;
   }
   .second h3 {
-    font-size: 2vw;
-    margin: 2% 0%;
+    font-size: 1.2vw;
+    margin: 3px 0px;
   }
   .second .bot {
     font-size: 1vw;
@@ -1814,17 +1819,17 @@ ul {
 
   .second div {
     width: 100%;
-    height: 35%;
+    height: 30%;
     font-size: 0.9vw;
   }
   .third .thirdWord {
     width: 100%;
-    height: 35%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1vw;
+    font-size: 0.9vw;
   }
   .third .thirdWord a {
     width: 100%;
@@ -1871,6 +1876,7 @@ ul {
     justify-content: center;
     align-items: center;
   }
+
   .con3Bx ul li a {
     width: 100%;
     height: 100%;
