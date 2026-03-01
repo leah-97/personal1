@@ -467,8 +467,6 @@ ul {
     position: absolute;
     right: 20%;
     top: 1%;
-  }
-  .recommend .recommend2 {
     color: #fff;
     font-size: 1vw;
   }
@@ -1140,14 +1138,9 @@ ul {
     position: absolute;
     right: 20%;
     top: 0;
-  }
-  .recommend .recommend2 {
     color: #fff;
+    box-sizing: border-box;
     font-size: 1vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .con3Ul h3 {
@@ -1329,25 +1322,42 @@ ul {
     height: 50%;
     margin: 0px auto;
     box-sizing: border-box;
-    gap: 100px;
+    gap: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 2% 0%;
   }
-  .footerBox .right2 {
-    width: 80%;
+  .footerImg {
+    width: 10%;
+    height: 100%;
   }
-  .footerBox ul {
+  .footerImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .footerBox .right2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right2 ul {
     width: 100%;
     height: 100%;
     display: flex;
     gap: 5px;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
   }
-  .footerBox ul:first-child {
+  .right2 ul:first-child {
     margin-bottom: 5px;
     font-size: 1vw;
   }
-  .footerBox ul:last-child {
+  .right2 ul:last-child {
     font-size: 1vw;
   }
   .footerBox li span {
@@ -1657,7 +1667,7 @@ ul {
     word-break: keep-all;
   }
   .first p {
-    font-size: 1.3vw;
+    font-size: 1vw;
     color: #666;
     word-break: keep-all;
   }
@@ -1692,14 +1702,14 @@ ul {
     margin: 2% 0%;
   }
   .second .bot {
-    font-size: 1.2vw;
+    font-size: 1vw;
     margin-top: 20px;
   }
 
   .second div {
     width: 100%;
     height: 35%;
-    font-size: 1.3vw;
+    font-size: 1vw;
   }
   .third .thirdWord {
     width: 100%;
@@ -1708,7 +1718,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.3vw;
+    font-size: 1vw;
   }
   .third .thirdWord a {
     width: 100%;
@@ -1783,7 +1793,7 @@ ul {
     margin-top: 10px;
   }
   .con3Bx ul li a .wordBox p {
-    font-size: 2vw;
+    font-size: 1vw;
     line-height: 1.4;
     height: 2.8em;
     margin: 5px 0px;
@@ -1801,9 +1811,7 @@ ul {
     border-radius: 50%;
     text-align: center;
   }
-  .con3Third .imgBox {
-    height: 300px;
-  }
+
   .con3Third img {
     width: 100%;
     height: 100%;
@@ -1822,22 +1830,17 @@ ul {
     position: absolute;
     right: 10%;
     top: 0;
-  }
-  .recommend .recommend2 {
+    font-size: 2vw;
     color: #fff;
-    font-size: 1vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
   }
 
   .con3Ul h3 {
-    font-size: 1.8vw;
+    font-size: 1.2vw;
   }
 
   .con3Third h3 {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
 
   /*con4*/
@@ -1997,9 +2000,9 @@ ul {
     height: 50%;
     margin: 0px auto;
     box-sizing: border-box;
-    gap: 100px;
+    gap: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 2% 0%;
   }
   .footerImg {
@@ -2011,28 +2014,31 @@ ul {
     height: 100%;
     object-fit: cover;
   }
+
   .footerBox .right2 {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .footerBox .right2 ul {
-    width: 100%;
-  }
-  .footerBox ul {
+  .right2 ul {
     width: 100%;
     height: 100%;
     display: flex;
     gap: 5px;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
   }
-  .footerBox ul:first-child {
+  .right2 ul:first-child {
     margin-bottom: 5px;
     font-size: 1vw;
   }
-  .footerBox ul:last-child {
+  .right2 ul:last-child {
     font-size: 1vw;
   }
-  .footerBox li span {
+  .right2 li span {
     color: rgb(224, 110, 17);
   }
 }
