@@ -1722,7 +1722,7 @@ ul {
       center / cover;
   }
   .con2 .con2Wrap {
-    height: 80%;
+    height: 90%;
     width: 100%;
     box-sizing: border-box;
   }
@@ -1735,7 +1735,7 @@ ul {
 
   .con2Wrap ul {
     width: 100%;
-    height: 85%;
+    height: 90%;
     margin: 1% 0%;
     display: grid;
     grid-template-columns: 1fr 1fr 0.7fr;
@@ -1756,7 +1756,7 @@ ul {
   .first .imgWrap {
     cursor: pointer;
     width: 100%;
-    height: 60%;
+    height: 45%;
   }
   .first img {
     width: 100%;
@@ -1773,15 +1773,15 @@ ul {
     word-break: keep-all;
   }
   .first p {
-    font-size: 1vw;
+    font-size: 0.9vw;
     color: #666;
     word-break: keep-all;
   }
   .first .bot,
   .third .bot {
     color: #444;
-    font-size: 1.2vw;
-    margin-top: 20px;
+    font-size: 1vw;
+    margin-top: 5px;
     word-break: keep-all;
   }
   .con2Ul .second {
@@ -1809,13 +1809,13 @@ ul {
   }
   .second .bot {
     font-size: 1vw;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
   .second div {
     width: 100%;
     height: 35%;
-    font-size: 1vw;
+    font-size: 0.9vw;
   }
   .third .thirdWord {
     width: 100%;
@@ -1830,6 +1830,7 @@ ul {
     width: 100%;
     height: 100%;
     display: block;
+    font-size: 0.9vw;
   }
   .third .circle {
     width: 80%;
@@ -2122,14 +2123,14 @@ ul {
   }
 
   .footerBox .right2 {
-    width: 90%;
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .right2 ul {
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     gap: 5px;
@@ -2139,10 +2140,10 @@ ul {
   }
   .right2 ul:first-child {
     margin-bottom: 5px;
-    font-size: 1vw;
+    font-size: 0.9vw;
   }
   .right2 ul:last-child {
-    font-size: 1vw;
+    font-size: 0.9vw;
   }
   .right2 li span {
     color: rgb(224, 110, 17);
