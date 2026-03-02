@@ -56,11 +56,11 @@ ul {
     display: flex;
     gap: 20px;
     color: #fff;
-    font-size: 0.8vw;
+    font-size: 0.7vw;
   }
 
   nav .right {
-    width: 25%;
+    width: 28%;
     display: flex;
     gap: 20px;
     color: #fff;
