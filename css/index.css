@@ -2,7 +2,16 @@
   margin: 0px;
   padding: 0px;
 }
-
+@font-face {
+  font-family: "A2z";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-4Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+body {
+  font-family: "A2z", sans-serif;
+}
 a {
   color: inherit;
   text-decoration: inherit;
